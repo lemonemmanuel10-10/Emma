@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lemon Emmanuel | Personal Webpage</title>
+</head>
+
+<body style="
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+">
+
+    <div style="padding:40px; text-align:center; background: rgba(0,0,0,0.4);">
+        <h1>Hello, I’m <span style="color:#00ffd5;">Lemon Emmanuel</span></h1>
+        <p>Software Engineering Student | Tech Enthusiast | Problem Solver</p>
+
+        <button onclick="changeText()" style="
+            padding:12px 25px;
+            border:none;
+            border-radius:25px;
+            background:#00ffd5;
+            cursor:pointer;">
+            Click Me
+        </button>
+
+        <p id="message"></p>
+    </div>
+
+    <div style="padding:40px; max-width:900px; margin:auto;">
+        <h2>About Me</h2>
+        <p>
+            My name is <b>Lemon Emmanuel</b>, a Software Engineering student at
+            Bowen University. I enjoy programming, web development, and solving
+            real-world problems using technology.
+        </p>
+    </div>
+
+    <div style="padding:40px; background: rgba(255,255,255,0.08);">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS & JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Problem Solving</li>
+            <li>Software Development Basics</li>
+        </ul>
+    </div>
+
+    <div style="padding:40px;">
+        <h2>Education</h2>
+        <p>
+            Course: Software Engineering <br>
+            Institution: Bowen University <br>
+            Matric No: BU23SEN1043
+        </p>
+    </div>
+
+    <div style="padding:40px; background: rgba(0,0,0,0.4); text-align:center;">
+        <h2>Contact</h2>
+        <p>
+            Email: lemonemmanuel10@gmail.com <br>
+            GitHub:
+            <a href="https://github.com/lemonemmanuel10-10" style="color:#00ffd5;">
+                lemonemmanuel10-10
+            </a>
+        </p>
+    </div>
+
+    <script>
+        function changeText() {
+            document.getElementById("message").innerHTML =
+            "Welcome to my webpage! 🚀";
+        }
+    </script>
+
+</body>
+</html>
